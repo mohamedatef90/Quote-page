@@ -1,0 +1,38 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.home{
+    height: 100vh;
+    background: url(../img/paula-vermeulen-_f2m3mEkaaU-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.quoate-box{
+    position: relative;
+}
+.quoate-box::before{
+    content:"";
+    background-image: url(../img/Quotation-Symbol-PNG.png);
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: -40px;
+    left: -50px;
+    width: 50px;
+    height: 50px;
+    font-size: 100px;
+}
+.quoate-box::after{
+    content:"";
+    background-image: url(../img/Quotation-Symbol-PNG.png);
+    background-size: cover;
+    background-position: center center;
+    transform: rotateY(180deg);
+    position: absolute;
+    bottom: -40px;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    font-size: 100px;
+}
